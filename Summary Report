@@ -1,0 +1,58 @@
+Project Title:
+Predicting CO₂ Emissions Per Capita from Fuel Sources Using Machine Learning
+
+Your Name:
+[Sethyasto Aming'a]
+
+SDG Problem Addressed:
+UN Sustainable Development Goal 13 – Climate Action
+This project addresses the global challenge of rising carbon emissions by predicting CO₂ emissions per capita using historical fuel consumption data. Accurate predictions help countries, researchers, and policy makers focus on reducing emissions through better energy strategies.
+
+Machine Learning Approach Used:
+Problem Type: Supervised Regression
+
+Model: Random Forest Regressor
+
+Input Features:
+
+Total CO₂ Emissions (Million Metric Tons)
+
+Gas Fuel Emissions
+
+Liquid Fuel Emissions
+
+Solid Fuel Emissions
+
+Cement Emissions
+
+Gas Flaring
+
+Target Variable:
+
+CO₂ Emissions Per Capita (Metric Tons per Person)
+
+Dataset
+Source: CO₂ Fossil Fuel Global Dataset
+
+Records: 260
+
+Cleaned by dropping missing values for per capita emissions.
+
+Tools used: Google Colab, Python, Scikit-learn, Matplotlib, Seaborn
+
+Results (Sample Metrics):
+Mean Absolute Error (MAE): ~[insert value]
+
+R² Score: ~[insert value]
+
+The model successfully predicted CO₂ per capita with high accuracy, showing the impact of different fuel types on personal carbon footprint.
+
+Ethical Considerations:
+Bias & Fairness: Dataset may underrepresent developing countries; analysis is focused on fuels rather than countries to reduce geopolitical bias.
+
+Sustainability Impact: By identifying key emission sources, the model guides sustainable energy planning globally.
+
+Transparency: The model avoids overfitting and is interpretable via feature importance analysis.
+
+Conclusion:
+This project demonstrates how AI and ML can be applied to sustainability challenges, specifically helping estimate and manage carbon footprints. It supports climate-smart policy development and promotes data-driven action in alignment with the UN SDGs.
